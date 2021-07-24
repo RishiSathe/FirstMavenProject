@@ -16,7 +16,7 @@ public class AppTest
      * @param testName name of the test case
      */
  
-  "Test
+  @Test
 	publi void greet(){ 
 		System.out.println("Hello Rishi from Maven");}
 
