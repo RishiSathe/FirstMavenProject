@@ -38,6 +38,6 @@ public class AppTest extends TestCase
         assertTrue( true );
     }
 
-	public void static void main (String [] args){
+	public static void main (String [] args){
 	greet();}
 }
