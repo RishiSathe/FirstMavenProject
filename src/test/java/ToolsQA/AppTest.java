@@ -39,5 +39,6 @@ public class AppTest extends TestCase
     }
 
 	public static void main (String [] args){
+	greet();
 	greet();}
 }
