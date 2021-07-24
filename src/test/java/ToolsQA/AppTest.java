@@ -15,7 +15,12 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+ 
+  "Test
+	publi void greet(){ 
+		System.out.println("Hello Rishi from Maven");}
+
+   public AppTest( String testName )
     {
         super( testName );
     }
