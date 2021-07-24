@@ -36,9 +36,10 @@ public class AppTest extends TestCase
     public void testApp()
     {
         assertTrue( true );
+	System.out.println("Changes done by me");
     }
 
 	public static void main (String [] args){
 	greet();
-	greet();}
+	testApp();}
 }
