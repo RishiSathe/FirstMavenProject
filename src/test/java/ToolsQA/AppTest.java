@@ -25,7 +25,7 @@ public class AppTest extends TestCase
     /**
      * @return the suite of tests being tested
      */
-    public static Test suite()
+    public Test suite()
     {
         return new TestSuite( AppTest.class );
     }
@@ -40,6 +40,7 @@ public class AppTest extends TestCase
     }
 
 	public static void main (String [] args){
-	greet();
-	testApp();}
+	AppTest apObj = new AppTest();
+	apObj.greet();
+	apObj.testApp();}
 }
