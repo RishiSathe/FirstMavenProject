@@ -39,6 +39,6 @@ public class AppTest extends TestCase
     }
 
 	public static void main (String [] args){
-	
+	System.out.println("Changes done by me");
 	System.out.println("Changes done by me");}
 }
