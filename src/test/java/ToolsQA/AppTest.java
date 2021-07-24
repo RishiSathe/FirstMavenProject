@@ -14,7 +14,7 @@ public class AppTest extends TestCase
      *
      * @param testName name of the test case
      */
- 	public void greet(){ 
+ 	public static void greet(){ 
 		System.out.println("Hello Rishi from Maven");}
 
    public AppTest( String testName )
@@ -37,4 +37,7 @@ public class AppTest extends TestCase
     {
         assertTrue( true );
     }
+
+	public void static void main (String [] args){
+	greet();}
 }
