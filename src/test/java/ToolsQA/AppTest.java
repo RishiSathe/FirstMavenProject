@@ -17,7 +17,7 @@ public class AppTest
      */
  
   @Test
-	publi void greet(){ 
+	public void greet(){ 
 		System.out.println("Hello Rishi from Maven");}
 
    public AppTest( String testName )
