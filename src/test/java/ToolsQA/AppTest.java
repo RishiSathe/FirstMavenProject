@@ -39,7 +39,6 @@ public class AppTest extends TestCase
     }
 
 	public static void main (String [] args){
-	AppTest apObj = new AppTest();
-	apObj.greet();
+	
 	System.out.println("Changes done by me");}
 }
